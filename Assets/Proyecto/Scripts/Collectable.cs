@@ -1,7 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace RapidFireTactics
-{
     public class Collectable : MonoBehaviour
     {
         [SerializeField] protected ParticleSystem collectParticles;
@@ -50,4 +50,3 @@ namespace RapidFireTactics
         }
 
     }
-}

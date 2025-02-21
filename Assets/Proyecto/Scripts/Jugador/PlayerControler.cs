@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerControler : MonoBehaviour
 {
     public float velocidad = 10f;        
     public float fuerzaSalto = 8f;       
     public float desplazamientoX = 3f;   
-    private int carrilActual = 1;       
+    private int carrilActual = 1;
+    public int salud = 200; 
+    public GameObject hasPerdidoCanvas;   
+
 
     private Rigidbody rb;
     private bool enSuelo = true;
@@ -50,5 +54,13 @@ public class PlayerControler : MonoBehaviour
         {
             enSuelo = true;
         }
+    }
+    public void recibirDaño(int Daño)
+    {
+       salud -= Daño; 
+       if (salud <= 0)
+       {
+        hasPerdidoCanvas.SetActive(true);
+       }
     }
 }

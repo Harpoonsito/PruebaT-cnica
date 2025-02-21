@@ -7,7 +7,7 @@ public class GeneradorCarretera : MonoBehaviour
     public Transform jugador;             // Referencia al jugador
     public float largoCarretera = 10f;    // Largo de cada segmento de carretera
     public int maxCarreteras = 5;         // Máximo de segmentos en pantalla
-    public float distanciaGeneracion = 20f; // Distancia para generar la siguiente carretera
+    public float distanciaGeneracion = 30f; // Distancia para generar la siguiente carretera
 
     private List<GameObject> carreterasActivas = new List<GameObject>();
     private float siguientePosZ = 0f; // Posición de la siguiente carretera
