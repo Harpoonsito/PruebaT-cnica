@@ -117,13 +117,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1884074337756752357, guid: cb04eea70ee14ab49b68d12e2cbbf680, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6571481136689439920}
   m_SourcePrefab: {fileID: 100100000, guid: cb04eea70ee14ab49b68d12e2cbbf680, type: 3}
 --- !u!4 &2745855260665776674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1884074337756752353, guid: cb04eea70ee14ab49b68d12e2cbbf680, type: 3}
   m_PrefabInstance: {fileID: 4341099984137266115}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2745855260665776678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1884074337756752357, guid: cb04eea70ee14ab49b68d12e2cbbf680, type: 3}
+  m_PrefabInstance: {fileID: 4341099984137266115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6571481136689439920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745855260665776678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321be814a9df574488d79dccfa654432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectParticles: {fileID: 0}
+  collectClip: {fileID: 8300000, guid: 98408d701da058845bfbf1ad644b3b4d, type: 3}
+  damageAmount: 10
 --- !u!1001 &6064033389097801356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -392,7 +415,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 11.66
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6706519240956099473, guid: cf8333094d1cb4c418739e2ca53b6dee, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4477329213780164010, guid: cf8333094d1cb4c418739e2ca53b6dee, type: 3}
     - {fileID: 8369879842943543357, guid: cf8333094d1cb4c418739e2ca53b6dee, type: 3}

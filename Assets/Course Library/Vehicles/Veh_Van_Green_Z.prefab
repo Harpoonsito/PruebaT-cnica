@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectParticles: {fileID: 0}
-  collectClip: {fileID: 0}
+  collectClip: {fileID: 8300000, guid: 98408d701da058845bfbf1ad644b3b4d, type: 3}
   damageAmount: 10
 --- !u!1 &152928
 GameObject:

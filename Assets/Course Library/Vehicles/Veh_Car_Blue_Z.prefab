@@ -437,7 +437,6 @@ GameObject:
   - component: {fileID: 2369556}
   - component: {fileID: 7937596396223858774}
   - component: {fileID: 1628515865219442844}
-  - component: {fileID: 8461046474252482136}
   m_Layer: 0
   m_Name: Veh_Car_Blue_Z
   m_TagString: Untagged
@@ -550,22 +549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectParticles: {fileID: 0}
-  collectClip: {fileID: 0}
-  damageAmount: 10
---- !u!114 &8461046474252482136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 321be814a9df574488d79dccfa654432, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectParticles: {fileID: 0}
-  collectClip: {fileID: 0}
+  collectClip: {fileID: 8300000, guid: 98408d701da058845bfbf1ad644b3b4d, type: 3}
   damageAmount: 10
 --- !u!1 &6399623105327882833
 GameObject:

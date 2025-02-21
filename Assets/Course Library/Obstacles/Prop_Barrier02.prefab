@@ -119,6 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 321be814a9df574488d79dccfa654432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectParticles: {fileID: 0}
-  collectClip: {fileID: 0}
+  collectParticles: {fileID: 8286874921765883116, guid: 89ed635de036d124ebf29eb479704fd5, type: 3}
+  collectClip: {fileID: 8300000, guid: 98408d701da058845bfbf1ad644b3b4d, type: 3}
   damageAmount: 10
