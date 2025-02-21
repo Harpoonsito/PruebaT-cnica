@@ -1,13 +1,13 @@
- using System.Collections;
-using System.Collections.Generic;
+using System.Collections;
+
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class UI_BotonHover : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    private const float MIN_SCALE_ON_HOVER = 0.7f;  
-    private const float ANIMATION_DURATION = 0.3f;  
-    private const float MOVE_OFFSET = 10f; 
+    private const float MIN_SCALE_ON_HOVER = 0.7f;
+    private const float ANIMATION_DURATION = 0.3f;
+    private const float MOVE_OFFSET = 10f;
     private Vector3 originalPosition;
 
     protected void OnEnable()
@@ -76,6 +76,6 @@ public class UI_BotonHover : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
             yield return null;
         }
 
-        transform.position = end; 
+        transform.position = end;
     }
 }

@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class GeneradorCarretera : MonoBehaviour
 {
-    public GameObject[] prefabsCarretera;  // Prefabs de carretera
-    public Transform jugador;              // Referencia al jugador
-    public float largoCarretera = 10f;     // Largo de cada carretera
-    public int maxCarreteras = 5;          // Máximo de carreteras en pantalla
-    public float distanciaGeneracion = 30f; // Distancia para generar la siguiente carretera
+    public GameObject[] prefabsCarretera; 
+    public Transform jugador;             
+    public float largoCarretera = 10f;     
+    public int maxCarreteras = 5;          
+    public float distanciaGeneracion = 30f; 
 
-    public GameObject[] prefabsItems; // Prefabs de los ítems
+    public GameObject[] prefabsItems; 
 
     private List<GameObject> carreterasActivas = new List<GameObject>();
     private float siguientePosZ = 0f; 

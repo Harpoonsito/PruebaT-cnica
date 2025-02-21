@@ -19,7 +19,7 @@ public class PlayerControler : MonoBehaviour
     public AudioSource musicaPerdida;
     public AudioSource sonidoDaño; 
 
-    public ParticleSystem particulasDaño; // 🔹 Nuevo: Partículas para daño
+    public ParticleSystem particulasDaño; 
 
     private Rigidbody rb;
     private bool enSuelo = true;
@@ -87,7 +87,7 @@ public class PlayerControler : MonoBehaviour
 
         if (particulasDaño != null)
         {
-            particulasDaño.Play(); // 🔹 Reproducimos las partículas de daño
+            particulasDaño.Play(); 
         }
 
         if (salud <= 0)

@@ -4,7 +4,7 @@ using TMPro;
 public class Puntuacion : MonoBehaviour
 {
     public static Puntuacion instance;
-    public TextMeshProUGUI textoPuntos; // Ahora usamos TextMeshProUGUI
+    public TextMeshProUGUI textoPuntos;
     private int puntos = 0;
 
     void Awake()
@@ -15,6 +15,6 @@ public class Puntuacion : MonoBehaviour
     public void AgregarPuntos(int cantidad)
     {
         puntos += cantidad;
-        textoPuntos.text = "Puntos: " + puntos; // Actualiza el texto con TMP
+        textoPuntos.text = "Puntos: " + puntos;
     }
 }
