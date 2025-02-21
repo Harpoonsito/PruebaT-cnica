@@ -6,7 +6,7 @@ namespace RapidFireTactics
 {
     public class Coin : Collectable
     {
-        protected override void OnPlayerDetected(PlayerScript playerScript)
+        protected override void OnPlayerDetected(PlayerControler playerScript)
         {
             base.OnPlayerDetected(playerScript);
 

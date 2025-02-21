@@ -8,7 +8,7 @@ namespace RapidFireTactics
     {
         [SerializeField] private int damageAmount = 10;
 
-        protected override void OnPlayerDetected(PlayerScript playerScript)
+        protected override void OnPlayerDetected(PlayerControler playerScript)
         {
             base.OnPlayerDetected(playerScript);
 

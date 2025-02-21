@@ -23,13 +23,13 @@ namespace RapidFireTactics
         {
             if (other.CompareTag("Player"))
             {
-                PlayerScript playerScript = other.GetComponent<PlayerScript>();
+                PlayerControler playerScript = other.GetComponent<PlayerControler>();
 
                 OnPlayerDetected(playerScript);
             }
         }
 
-        protected virtual void OnPlayerDetected(PlayerScript playerScript)
+        protected virtual void OnPlayerDetected(PlayerControler playerScript)
         {
             CollectVisuals();
         }
